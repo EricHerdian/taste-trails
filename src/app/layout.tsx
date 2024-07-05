@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         <Suspense fallback={<Loading />}>
-          <div className="md:pt-14">{children}</div>
+          <div className="mt-12 md:mt-[72px]">{children}</div>
         </Suspense>
       </body>
     </html>

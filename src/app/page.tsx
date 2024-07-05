@@ -2,17 +2,17 @@ import Link from "next/link";
 
 const HomePage = () => {
   return (
-    <main className="relative">
+    <main className="absolute top-0 left-0 w-full h-screen">
       <img
         src="/background.jpeg"
         alt="Taste-Trails"
-        className="absolute inset-0 w-full h-full object-cover opacity-75"
+        className="absolute inset-0 w-full h-full object-cover opacity-55"
       />
-      <div className="relative flex flex-col items-center justify-center h-screen text-center text-black">
+      <div className="relative md:pt-14 flex flex-col items-center justify-center h-screen text-center text-black">
         <h1 className="md:mb-8 mb-4 md:text-6xl text-2xl font-bold">
           Welcome to TASTE-TRAILS
         </h1>
-        <p className="md:mb-8 mb-4 md:text-3xl text-xl ">
+        <p className="md:mb-8 mb-4 md:text-3xl text-xl">
           Discover delicious recipes for every occasion!
         </p>
         <Link
